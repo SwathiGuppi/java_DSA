@@ -6,7 +6,7 @@ public class altProduct {
         Arrays.sort(arr);
 
         int i = 0, j = arr.length - 1;
-        int product = 0;
+        int product = 0; 
 
         while (i < j) {
             product += arr[i] * arr[j];
